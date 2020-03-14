@@ -1,0 +1,29 @@
+{
+  "name": "shortener.js",
+  "version": "1.0.0",
+  "description": "shortener.js",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freivincampbell/shortener.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Freivincampbell/shortener.js/issues"
+  },
+  "homepage": "https://github.com/Freivincampbell/shortener.js#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
