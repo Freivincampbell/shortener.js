@@ -115,7 +115,7 @@ module.exports.connection = connection;
 
 > Here we are using mongoose to create our connection, I am using async / await to wait for it, also I sent to params into that connection
 >
->if the connection works it will return **>>> DB is connected 👏👏👏** if not a error message.
+>if the connection works it will return **>>> DB is connected 👏👏👏** if not an error message.
 
 ### Now, our ShortUrl file which works as our schema look like:
 ```javascript
