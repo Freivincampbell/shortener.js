@@ -44,5 +44,5 @@ app.post('/shortUrls', async (req, res) => {
 
 // EXPRESS PORT
 app.listen(port, () => {
-    console.log(`🚀🎉 Server ready at port ${port} 🚀🎉`);
+    console.log(`🚀🎉 Server ready at port http://localhost:${port} 🚀🎉`);
 });
